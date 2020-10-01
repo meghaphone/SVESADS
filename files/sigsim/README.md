@@ -14,7 +14,7 @@ First you need python3 installed. I have included the installation instructions 
 
 1. Install python, e.g. from [python.org](https://www.python.org/downloads/)
 
-2. Install the prerequisites, if you don't have them already: `pip3 install opencv-python numpy`
+2. Install the prerequisites, if you don't have them already: `pip3 install -r requirements.txt`
 
 3. Change the location of the python executable ( `which python3` ) in the first line of the `sigsim` script.
 
