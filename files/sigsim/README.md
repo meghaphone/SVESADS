@@ -16,19 +16,15 @@ First you need python3 installed. I have included the installation instructions 
 
 2. Install the prerequisites, if you don't have them already: `pip3 install -r requirements.txt`
 
-3. Change the location of the python executable ( `which python3` ) in the first line of the `sigsim` script.
+3. Run the script in debug mode to generate a version of the signal, just to see if it's working:
 
-4. Make sigsim executable: `chmod a+x sigsim` 
-
-5. Run the script in debug mode to generate a version of the signal, just to see if it's working:
-
-  `./sigsim debug --resolution 70 --shape H.png` 
+  `python3 sigsim.py debug --resolution 70 --shape H.png` 
 
   >(You should now get two small overlapping windows that show the shape of a randomly rotated and perspectively skewed 'H' and the shape of the larger mask that will be used to see if the landing area for the H is clear enough (more about that later).
   
   ![](images/debug-output.png)
   
-6. click in one of the windows and hit any key to stop the script: it's all working...
+4. click in one of the windows and hit any key to stop the script: it's all working...
 
 
 &nbsp;

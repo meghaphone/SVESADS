@@ -1,6 +1,3 @@
-#!/Library/Frameworks/Python.framework/Versions/3.8/bin/python3
-# Replace path above with path to your python3 executable
-
 # install prerequisites with "pip3 install numpy cv2 sklearn json uuid"
 
 import numpy as np
